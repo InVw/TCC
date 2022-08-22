@@ -1,0 +1,386 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+/**Boot CSS**/
+html,body{
+    height: 100%;
+}
+img{
+    
+    padding-top: 35px;
+    width: 100%;
+    
+    
+}
+section.banner-principal{
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/principal.jpg');
+    background-size: cover;
+    position: relative;
+    
+
+
+}
+.overlay{
+    position: absolute;
+    left: 0;  
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(65, 155, 223, 0.077);
+}
+.center{
+    
+    max-width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+
+}
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+.w50{
+    padding: 0 10px;
+    width: 50%;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/**Estilização do Site**/
+header{
+    padding: 20px 0;
+    background: #4400ff;
+    
+}
+header .logo{
+    font-size: 25px;
+    font-weight:550px;
+    text-transform: uppercase;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.mobile{
+    display: none;
+}
+
+
+nav.desktop ul{
+    position: relative;
+    top: 6px;
+    list-style-type: none;
+
+}
+nav.desktop li{
+	font-weight: 480;
+	font-size: 19px;
+	padding:0 25px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+nav.desktop a{
+	color: white;
+	text-decoration: none;
+}
+
+nav.desktop a:hover{
+	text-decoration: underline;
+}
+section.banner-container{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.banner-single{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height:100%;
+	opacity: 0;
+	background-size: cover;
+	background-position: center;
+}
+section.banner-principal form{
+    width: 93%;
+    max-width: 550px;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+
+}
+
+
+
+section.banner-principal form h2{
+color: rgb(0, 0, 0);
+font-weight: 800;
+font-size: 35px;
+text-align: center;
+
+}
+section.banner-principal form input[type=email]{
+
+width: 100%;
+height: 66px;
+background: rgb(255, 255, 255);
+color: #000000;
+font-size: 28px;
+padding-left: 10px;
+border-radius: 15px;
+
+
+}
+section.especialidades{
+    position: center;
+    color: rgb(0, 0, 0);
+}
+section.banner-principal form input[type=submit]{
+    margin-top: 7px;
+    width: 100%;
+    height: 60px;
+    margin-top: 8px;
+    background: #4400ff;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding-left: 10px;
+    border-radius: 19px;
+}
+
+section.descricao-autor{
+    padding-top: 10;
+    position: left;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    
+
+}
+
+
+
+section.descricao-autor p{
+    font-size: 26px;
+    color: rgb(9, 185, 244);
+    margin-top: 10px;
+}
+
+section.especialidades{
+    background: #4400ff;
+}
+section.especialidades h2.title{
+    font-size: 45px;
+    font-weight: 500px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box-especialidade{
+    margin: 40px 0;
+    padding: 0 30px;
+    text-align: center;
+
+    
+}
+.box-especialidade h3{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+.box-especialidade h4{
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+
+}
+.box-especialidade p{
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	margin-top: 10px;
+}
+section.extras{
+    padding: 30px 0;
+    background: #000000;
+}
+.servicos-containter,.depoimentos-container{
+   padding: 0 150px;
+   
+}
+.servicos-containter,.depoimentos-container h2{
+    text-align: center;
+}
+.servicos-containter,.servicos-container h2{
+    text-align: center;
+}
+
+section.extras .title{
+    color: rgb(63, 238, 10);
+    font-weight: 950;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.depoimento-single{
+    
+    padding: 20px 0;
+    border-bottom: 2px solid #4400ff;
+}
+.depoimento-descricao{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: white;
+    
+}
+
+.servicos ul{
+    margin: 20px 0;
+    list-style-position: inside;
+    padding: 20px 0;
+    color: white;
+    padding: 50px 0;
+    border-bottom: 2px solid #4400ff;
+}
+.servicos-single{
+    
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.servicos li{
+    margin-botom: 10px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: white;
+    padding: 20px 0px;
+    
+}
+.depoimento-autor{
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+footer{
+    background: #4400ff;
+    padding: 25px 0;
+}
+footer.fixed{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 17px;
+}
+
+section.erro-404 center{
+    position: relative;
+}
+section.erro-404 h2{
+    text-align: top;
+    float: top;
+    text-align: center;
+    color:white;
+    text-align: center;
+    display: block;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    font-size: 50px;
+}
+section.erro-404 p{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+
+    
+@media screen and (max-width: 1280px){
+	img{
+		float: none !important;
+		display: block;
+		margin:0 auto;
+	}
+    
+    
+
+	.w50{
+		padding:20px;
+		width: 100%;
+	}
+
+	.w33{
+		width: 100%;
+		padding: 20px;
+	}
+	
+	.box-especialidade{
+		padding: 40px 20px;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 876px){
+	nav.desktop{
+		display: none;
+	}
+
+	nav.mobile{
+		display: block;
+	}
+	.botao-menu-mobile{
+		font-size: 24px;
+		cursor: pointer;
+		color: white;
+	}
+	nav.mobile ul{
+		top:65px;
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		width: 94%;
+		display: none;
+		text-align: center;
+	}
+	nav.mobile li{
+		font-weight: 300;
+		width: 100%;
+		display: block;
+		background: white;
+		border-bottom:1px solid #ccc;
+		font-size: 18px;
+		padding:8px 0;
+	}
+	nav.mobile li a{
+		display: block;
+		color: #444;
+		text-decoration: none;
+	}
+}
