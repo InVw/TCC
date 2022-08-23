@@ -52,5 +52,13 @@ $('nav.mobile').click(function(){
         //material-icons
         
         
-})
+});
+if($('target').length > 0){
+  //O elemento existe, portando dar o scroll em algum elemento
+  var elemento ='#'+$('target').attr('target');
+  var divScroll = $(elemento).offset().top;
+  
+  $('html,body').animate({'srcollTop':divScroll});
+  
+}
 })

@@ -18,7 +18,18 @@ include('config.php');
 	<meta charset="utf-8" />
 </head>
 <body style="background-color: black">
-
+<?php
+	$url = isset($_GET['url']) ? $_GET['url'] : 'home';
+	switch ($url) {
+		case 'sobre':
+			echo '<target target="sobre"/>';
+			break;
+			case 'servicos':
+			echo '<target target="servicos"/>';
+			break;
+		
+	}
+?>
 
 
 	<header>
@@ -27,7 +38,8 @@ include('config.php');
 			<nav class="desktop right">
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>nfts itens">Nfts itens</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Sobre</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
@@ -42,7 +54,8 @@ include('config.php');
                  </div>
 				<ul>
 				<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Depoimentos</a></li>
+				<li><a href="<?php echo INCLUDE_PATH; ?>nfts itens">Nfts itens</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
@@ -52,19 +65,20 @@ include('config.php');
 	</header>
 	
 	<?php
-	
-	$url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
 	if(file_exists('pages/'.$url.'.php')){
 		 include('pages/'.$url.'.php');
 
 }else{
 //Podemos fazer o que quiser, pois a página não existe. include('pages/404.php');
+	if($url != 'sobre'&& $url != 'servicos'){
 	$pagina404 = true;
-	
 	include('pages/404.php');
-
+}else{
+	include('pages/home.php');
 }
+}
+
 	
 	?>
 	

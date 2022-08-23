@@ -76,7 +76,7 @@
 
 	<section class="extras">
 		<div class="center">
-			<div class="w50 left depoimentos-container">
+			<div id="depoimentos" class="w50 left depoimentos-container">
 				<h2 class="title">Depoimentos dos usuarios</h2>
 				
 				<div class="depoimento-single">
@@ -92,7 +92,7 @@
 				</div><!--depoimento-single-->
 			</div><!--w50-->
 
-			<div  class="w33 left servicos-container">
+			<div id="servicos" class="w33 left servicos-container">
 				<h2 class="title">Serviços</h2>
 				<div class = "servicos-single">
 				<div class="servicos">
