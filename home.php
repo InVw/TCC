@@ -37,7 +37,7 @@
 
 			</div> 
 			<div class="w50 left">
-				<div class="right"><img src="<?php echo INCLUDE_PATH; ?>images/Foto1.jpeg"width="450" height="770"/>
+				<div class="right"><img src="<?php echo INCLUDE_PATH; ?>images/Foto1.jpeg"width="450" height="770"/><
 				
         </div>
 				

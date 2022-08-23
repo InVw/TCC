@@ -34,7 +34,9 @@ include('config.php');
 
 	<header>
 		<div class="center">
-			<div class="logo left"><a href="/">Logomarca</a></div><!--logo-->
+		
+		<div class="logo left"><div class = "logoc"><img src="<?php echo INCLUDE_PATH; ?>images/logo.png"width="300" height="300"/></div></a></div><!--logo-->
+			
 			<nav class="desktop right">
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
@@ -53,6 +55,7 @@ include('config.php');
 				   
                  </div>
 				<ul>
+				
 				<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
 				<li><a href="<?php echo INCLUDE_PATH; ?>nfts itens">Nfts itens</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>

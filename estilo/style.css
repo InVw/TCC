@@ -64,21 +64,48 @@ section.banner-principal{
 }
 /**Estilização do Site**/
 header{
-    padding: 20px 0;
+    height: 12%;
+    padding: 25px 0;
     background: #2d007b;
     
 }
 header .logo{
+    
+    width: 7%;
+    height: 5%;
+    position: absolute;
+    
     font-size: 25px;
     font-weight:550px;
     text-transform: uppercase;
 }
+
+.logoc{
+    padding: 2%;
+    position: absolute;
+    text-transform: uppercase;
+    float: top;
+    border: solid 6px;
+    margin-top: -100%;
+    max-height: 100%;
+}
+.logoan{
+
+    margin-top: 90%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .logo a{
+    float: top;
     text-decoration: none;
     color: white;
 }
 .mobile{
     display: none;
+}
+.logo center{
+    float: top;
 }
 
 
@@ -169,6 +196,7 @@ section.banner-principal form input[type=submit]{
 }
 
 section.descricao-autor{
+    text-align: justify;
     padding-top: 10;
     position: left;
     color: rgb(255, 255, 255);
