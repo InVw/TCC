@@ -4,6 +4,7 @@ include('config.php');
 <!DOCTYPE html>
 <html>
 <head>
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
 	<title>Projeto 01</title>
 	<link rel="<?php echo INCLUDE_PATH; ?>stylesheet" href="estilo/font-awesome.min.css">
@@ -26,7 +27,7 @@ include('config.php');
 			<nav class="desktop right">
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Depoimentos</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
@@ -60,7 +61,7 @@ include('config.php');
 }else{
 //Podemos fazer o que quiser, pois a página não existe. include('pages/404.php');
 	$pagina404 = true;
-	$paginacontato = true;
+	
 	include('pages/404.php');
 
 }
@@ -69,7 +70,7 @@ include('config.php');
 	
 
 	<footer <?php if(isset($pagina404) && $pagina404 == true) echo  'class= "fixed"';?>>
-	<footer <?php if(isset($paginacontato) && $paginacontato == true) echo  'class= "fixed"';?>>
+	
 		<div class="center">
 			<p>F1-NFT  Todos os direitos reservados!</p>
 		</div>
@@ -79,6 +80,15 @@ include('config.php');
 </form>
 <script src="<?php echo INCLUDE_PATH; ?>JS/jquery.js"></script>
 <script src ="<?php echo INCLUDE_PATH; ?>JS/scripts.js"></script>
+<?php
+	if($url == 'contato'){
+?>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrfbKOidJMlBV--M0Bvt4Zrkp3FtpOv58&callback=initMap&v=weekly"
+      defer
+    ></script>
+<script src="<?php echo INCLUDE_PATH; ?>JS/map.js"></script>
+<?php }?>
 </body>
 </html>
 
