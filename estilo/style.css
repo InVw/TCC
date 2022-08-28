@@ -6,10 +6,12 @@
 }
 /**Boot CSS**/
 html,body{
+    max-width: 100%;
+    background-color: #000000;
     height: 100%;
 }
 input{
-    border: 0;
+    border: 20;
 }
 img{
     
@@ -18,12 +20,16 @@ img{
     
     
 }
+
 section.banner-principal{
     width: 100%;
-    height: 900px;
+    height: 950px;
     background-image: url('../images/principal.jpg');
     background-size: cover;
     position: relative;
+    background-image: center;
+    
+    
     
 
 
@@ -67,6 +73,7 @@ header{
     height: 12%;
     padding: 25px 0;
     background: #2d007b;
+    border-radius: 1px;
     
 }
 header .logo{
@@ -81,13 +88,9 @@ header .logo{
 }
 
 .logoc{
-    padding: 2%;
-    position: absolute;
-    text-transform: uppercase;
-    float: top;
-    border: solid 6px;
-    margin-top: -100%;
-    max-height: 100%;
+
+    margin-top: -90%;
+    
 }
 .logoan{
 
@@ -207,14 +210,17 @@ section.descricao-autor{
 
 
 
-section.descricao-autor p{
+
+section.descricao-autor p{  
     font-size: 26px;
     color: rgb(9, 185, 244);
     margin-top: 10px;
 }
 
+
 section.especialidades{
     background: #2d007b;
+    border-radius: 15px;
 }
 section.especialidades h2.title{
     font-size: 45px;
@@ -226,6 +232,7 @@ section.especialidades h2.title{
     margin: 40px 0;
     padding: 0 30px;
     text-align: center;
+    
 
     
 }
@@ -235,19 +242,26 @@ section.especialidades h2.title{
     
 }
 .box-especialidade h4{
+    width: 80;
     font-weight: 600;
     font-size: 25px;
     color: #000000;
+    
 
 }
 .box-especialidade p{
+    
+    width: 100%;
+    text-align: right;
+    text-align: justify;
 	color: rgb(255, 255, 255);
-	font-size: 18px;
+	font-size: 17px;
 	margin-top: 10px;
 }
 section.extras{
     padding: 30px 0;
     background: #000000;
+    
 }
 .servicos-containter,.depoimentos-container{
    padding: 0 150px;
@@ -267,11 +281,12 @@ section.extras .title{
     margin-bottom: 35px;
 }
 .depoimento-single{
-    
+    text-align: justify;
     padding: 20px 0;
     border-bottom: 2px solid #2d007b;
 }
 .depoimento-descricao{
+    text-align: justify;
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 300px;
@@ -292,7 +307,8 @@ section.extras .title{
     border-bottom: 2px solid rgb(255, 255, 255);
 }
 .servicos li{
-    margin-botom: 10px;
+    
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: 300px;
     color: white;
@@ -307,7 +323,8 @@ section.extras .title{
 }
 footer{
     background: #2d007b;
-    padding: 25px 0;
+    padding: 20px 0;
+    border-radius: 10px;
 }
 footer.fixed{
     position: fixed;
@@ -346,7 +363,7 @@ section.erro-404 p{
 
 #map{
     width: 100%;
-    height: 550px;
+    height: 55%;
     
 }
 .contato-container textarea{
@@ -419,6 +436,11 @@ section.erro-404 p{
 		padding: 40px 20px;
 		margin: 0;
 	}
+    .logoc{
+        display: block;
+        margin-top: -142%;
+       
+    }
 }
 @media screen and (max-width: 876px){
 	nav.desktop{

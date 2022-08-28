@@ -4,7 +4,7 @@
     
 
 <head>
-
+<link href="<?php echo INCLUDE_PATH; ?>estilo/stylenft.css" rel="stylesheet" />
     <meta charset="UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,165 +13,6 @@
 
     <title>Minting Website</title>
     
-    
-    <style>
-
-        *{
-
-            margin:0;
-
-            padding:0;
-
-            box-sizing: border-box;
-
-        }
-
-
-
-        html{height:100%;}
-
-
-
-        body{
-            width: 100%;
-            height:100%;
-
-            background: #f2709c; /* fallback for old browsers */
-
-            background: -webkit-linear-gradient(to right, #f2709c, #ff9472); /* Chrome 10-25, Safari 5.1-6 */
-
-            background: linear-gradient(to right, #f2709c, #ff9472); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-
-
-        .box1{
-
-            max-width: 100%;
-            max-height: 100%;
-            width: 100%;
-            height: 100%;
-            
-            background-color: #333;
-
-            padding:30px 0;
-
-            margin:20px auto;
-
-            border-radius:20px;
-
-            height:100%;
-
-        }
-
-
-
-        .wraper1{
-            text-align: center;
-            color:white;
-            width:100%;
-            
-            
-
-        }
-
-
-
-        header1{
-
-            padding-top:15px;
-
-            padding-left: 50px;
-
-        }
-
-        header1 a{
-
-            color:white;
-
-            font-weight: bold;
-
-            text-decoration: none;
-
-            display: inline-block;
-
-            margin:0 10px;
-
-        }
-
-
-
-        header1 a:hover{
-
-            text-decoration: underline;
-
-        }
-        .img-info-mint{
-            box-sizing: border-box;
-            img{border-radius: 20px;}
-            padding: 1px 50px;
-            border:60px;
-            
-        }
-        .info-mint{
-            padding:50px 30px;
-            justify-content: space-around;
-            display:flex;
-        }
-        .text-info-mint{
-         padding:10px 30px;
-         color:white;
-         
-
-         }
-         ul{
-        
-            list-style: none;
-            display: flex;
-            justify-content: space-around;
-         }
-       button{
-        font-size:24px;
-        width: 115px;
-        height: 30px;
-        cursor: pointer;
-        background-color: green;
-        border-radius: 15px;
-        color: black;
-        border:0;
-        text-align: center;
-        float:left;
-       }
-     
-
-       button2{
-        font-size:24px;
-        width: 115px;
-        height: 30px;
-        cursor: pointer;
-        background-color: red;
-        border-radius: 15px;
-        color: black;
-        border:1;
-        text-align: center;
-        float:right;
-       }
-       #img_redondo{
-        border-radius: 15px;
-       }
-       enquadramento{
-        display: flex;
-        justify-content: left;
-        
-       }
-      
-       
-
-
-
-
-    </style>
 
 </head>
 
@@ -202,51 +43,158 @@
         <div class="text-info-mint">
         <h2>Sobre o Projeto</h2>
         <br/>
-        <p>"totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/>
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> 
+        <p>"totam rem aperiam, eaquedl salkdl lk laçaslç, ldlskdlw , sfeiijs  flklew oijfijew wdkleo lçsodkf, lkfkkow wkle owl dlaskdlw lqwle lkmqweams,dasmda lksldkasldk, sdasdasdlw lkfei klekoi, ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem totam rem aperiam, eaquedl salkdl lk laçaslç, ldlskdlw , sfeiijs  flklew oijfijew wdkleo lçsodkf, lkfkkow wkle owl dlaskdlw lqwle lkmqweams,dasmda lksldkasldk, sdasdasdlw lkfei klekoi, ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem  
         </p>
     </div>
+</div>
+    
      <ul>
+    <div class = "container">
     <div class="img-info-mint">
           <li>
-         <img id = "img_redondo" src="images/NFT_alpine.jpg"/>
-         <button>
-            COMPRA 
-        </button>
-        <button2>
-            VENDA 
-        </button>
-    </li>
-    </br>
-    <br/>
-    <br/>
-    <li>
-        <div class = "enquadramento">
             
-    <img id = "img_redondo" src="https://www.arweave.net/Aa9hMRU7MOfKaReeVeqDsbqP5V0aPjYdrenH98fqzxM?ext=png"/>
-         <button>
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <div class = "containerbutton">
+          <button class = "btn btn-compra">
             COMPRA 
         </button>
-        
-        <button2>
+
+       
+        <button class = "btn btn-venda">
             VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <button class = "btn btn-compra">
+            COMPRA 
         </button>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <button class = "btn btn-compra">
+            COMPRA 
+        </button1>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <button class = "btn btn-compra">
+            COMPRA 
+        </button1>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <button class = "btn btn-compra">
+            COMPRA 
+        </button1>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <button class = "btn btn-compra">
+            COMPRA 
+        </button1>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+          <button class = "btn btn-compra">
+            COMPRA 
+        </button1>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2>
+        
+        
+        
+        
+    </li>
+    </div>
+    <div class="img-info-mint">
+          <li>
+            
+          <div style = "background-image:url('images/NFT_alpine.jpg');" class="img"></div>
+           
+          <button class = "btn btn-compra">
+            COMPRA 
+        </button1>
+       
+        <button class = "btn btn-venda">
+            VENDA 
+        </button2> 
+    </li>
+    </div>        
+</div>
+</div>
+</div>
+</div>
+
+    
+    
+        
+            
+    
     </ub>
     </li>
     </ul>
@@ -255,6 +203,8 @@
     </div>
     </div>
     </div>
+</div>
+
     
 
 

@@ -1,0 +1,211 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+html{height:100%;}
+
+
+
+body{
+    max-width: 100%;
+    height:100%;
+
+    background: #f2709c; /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #f2709c, #ff9472); /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #f2709c, #ff9472); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.box1{
+
+    max-width: 98%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    
+    background-color: #333;
+
+    padding:50px 0;
+
+    margin: 30px auto;
+
+    border-radius:20px;
+
+    height:100%;
+
+}
+
+
+
+.wraper1{
+    text-align: center;
+    color:white;
+    width: 100%;
+    font-size: 26px;
+    
+    
+
+}
+
+
+
+header1{
+
+    padding-top:15px;
+
+    padding-left: 50px;
+
+}
+
+header1 a{
+
+    color:white;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    margin:0 10px;
+
+}
+
+
+header1 a:hover{
+
+    text-decoration: underline;
+
+}
+
+.info-mint{
+    padding: 40px 30px;
+    justify-content: space-around;
+    display:flex;
+}
+.text-info-mint{
+ max-width: 80%;
+ text-align: justify ;
+ color:white;
+ 
+
+ }
+ .container{
+    width: 100%;
+    padding: 30px 0;
+    max-width: 1280px;
+    margin: 20px auto;
+    border: solid 5px rgb(255, 255, 255);
+    position: relative;
+    
+ }
+ .img-info-mint{
+    width:25%;
+	padding-top: 32%;
+	float: left;
+	background-color:rgba(255, 255, 255, 0);
+	position: relative;
+	border:4px solid rgba(255, 255, 255, 0);
+    
+ }
+   
+ .btn{
+    
+
+   max-width: 1280px;
+   align-items: top;
+   justify-content: left;
+    
+ }
+ .btn-compra{
+   
+    cursor: pointer;
+    top: 30%;
+    margin: 10%;
+    width: 90px;
+    height: 30px;   
+    cursor: pointer;
+    background-color: rgb(51, 255, 0);
+    border-radius: 15px;
+    color: black;
+    border:1;
+    font-size:22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    float:left;
+    margin-top: -30%;
+ }
+ .btn-venda{
+    top: 20%;
+    margin-top: -30%;
+    
+    width: 90px;
+    height: 30px;   
+    cursor: pointer;
+    background-color: red;
+    border-radius: 15px;
+    color: black;
+    border:1;
+    font-size:22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+        
+ }
+ 
+ .img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:256px;
+	height: 256px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+
+ ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+
+button2{
+margin: 20%;
+width: 115px;
+height: 30px;
+cursor: pointer;
+background-color: red;
+border-radius: 15px;
+color: black;
+border:1;
+text-align: center;
+float:right;
+}
+#img_redondo{
+border-radius: 35px;
+}
+
+
+
+
+
+

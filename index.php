@@ -18,30 +18,31 @@ include('config.php');
 	<meta charset="utf-8" />
 </head>
 <body style="background-color: black">
-<?php
+<?php		
 	$url = isset($_GET['url']) ? $_GET['url'] : 'home';
 	switch ($url) {
-		case 'sobre':
-			echo '<target target="sobre"/>';
+		case 'depoimentos':
+			echo '<target target="depoimentos" />';
 			break;
-			case 'servicos':
-			echo '<target target="servicos"/>';
+
+		case 'servicos':
+			echo '<target target="servicos" />';
 			break;
 		
 	}
 ?>
 
-
+	
 	<header>
 		<div class="center">
 		
-		<div class="logo left"><div class = "logoc"><img src="<?php echo INCLUDE_PATH; ?>images/logo.png"width="300" height="300"/></div></a></div><!--logo-->
+		<div class="logo left"><div class = "logoc"><img src="<?php echo INCLUDE_PATH; ?>images/logo3.png"width="300" height="300"/></div></a></div><!--logo-->
 			
 			<nav class="desktop right">
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>nfts itens">Nfts itens</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
@@ -58,7 +59,7 @@ include('config.php');
 				
 				<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
 				<li><a href="<?php echo INCLUDE_PATH; ?>nfts itens">Nfts itens</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
@@ -74,12 +75,12 @@ include('config.php');
 
 }else{
 //Podemos fazer o que quiser, pois a página não existe. include('pages/404.php');
-	if($url != 'sobre'&& $url != 'servicos'){
+	if($url != 'depoimentos'&& $url != 'servicos'){
 	$pagina404 = true;
 	include('pages/404.php');
-}else{
+ }else{
 	include('pages/home.php');
-}
+ }
 }
 
 	
@@ -92,11 +93,10 @@ include('config.php');
 			<p>F1-NFT  Todos os direitos reservados!</p>
 		</div>
 </footer>
-		
+<script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
+<script src ="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>		
 	
-</form>
-<script src="<?php echo INCLUDE_PATH; ?>JS/jquery.js"></script>
-<script src ="<?php echo INCLUDE_PATH; ?>JS/scripts.js"></script>
+
 <?php
 	if($url == 'contato'){
 ?>
@@ -104,7 +104,8 @@ include('config.php');
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrfbKOidJMlBV--M0Bvt4Zrkp3FtpOv58&callback=initMap&v=weekly"
       defer
     ></script>
-<script src="<?php echo INCLUDE_PATH; ?>JS/map.js"></script>
+
+<script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
 <?php }?>
 </body>
 </html>

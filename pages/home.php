@@ -68,7 +68,7 @@
 			<div class="w33 left box-especialidade">
 				<h3>Estilização</h3>
 				<h4>Desenvolvedor: Danilo</h4>
-				<p>Desenvolvendo texturas, e desgn clean</p>
+				<p>Desenvolvendo texturas, e desgn clean otimizando as fotos deixando elas, leves para abertura mais rapida do site.</p>
 			</div><!--box-especialidade-->
 			<div class="clear"></div>
 		</div>

@@ -54,21 +54,21 @@
 				<h3>Front-End</h3>
 				<h4>Desenvolvedor: Igor César</h4>
 				<p>As linguagens utilizadas são, CSS,CSS3 com design responsivel,<br> Java Script, para
-					as movimentações do site, e cadastrou nosso<br> jogo em uma Blockchain.
+					as movimentações do site, e cadastrou nosso jogo em uma Blockchain.
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3>Back-End</h3>
 				<h4>Desenvolvedor: Kauã Henri </h4>
-				<p>Linguagens utilizadas PHP com Mysql, Framework Laravel,<br> ajudou cadastrar a moeda do jogo
-					na Blockchain, e integrando<br> no banco de dados. 
+				<p>Linguagens utilizadas PHP com Mysql, Framework Laravel, ajudou cadastrar a moeda do jogo
+					na Blockchain, e integrando no banco de dados. 
 				</p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3>Estilização</h3>
-				<h4>Desenvolvedor: Danilo</h4>
-				<p>Desenvolvendo texturas, e desgn clean</p>
+				<h4>Desenvolvedor: 1Danilo</h4>
+				<p>Desenvolvendo texturas,Desenvolvendo texturas,Desenvolvendo texturas,Desenvolvendo texturas,</p>
 			</div><!--box-especialidade-->
 			<div class="clear"></div>
 		</div>
@@ -104,6 +104,7 @@
 				</div><!--servicos-->
 			</div><!--w50-->
             </div>
+			</div>
 		
 			<div class="clear"></div>
 		</div><!--center-->
