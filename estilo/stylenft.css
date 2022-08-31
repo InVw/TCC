@@ -91,7 +91,7 @@ header1 a:hover{
 }
 
 .info-mint{
-    padding: 40px 30px;
+    padding: 10px 30px;
     justify-content: space-around;
     display:flex;
 }
@@ -103,17 +103,17 @@ header1 a:hover{
 
  }
  .container{
-    width: 100%;
-    padding: 30px 0;
-    max-width: 1280px;
+    width: 90%;
+    padding: 10px 0;
+    max-width: 1920px;
     margin: 20px auto;
     border: solid 5px rgb(255, 255, 255);
-    position: relative;
+    
     
  }
  .img-info-mint{
-    width:25%;
-	padding-top: 32%;
+    width:15%;
+	padding-top: 20%;
 	float: left;
 	background-color:rgba(255, 255, 255, 0);
 	position: relative;
@@ -125,18 +125,18 @@ header1 a:hover{
     
 
    max-width: 1280px;
-   align-items: top;
-   justify-content: left;
+   
+  
     
  }
  .btn-compra{
    
     cursor: pointer;
-    top: 30%;
-    margin: 10%;
-    width: 90px;
-    height: 30px;   
-    cursor: pointer;
+    top: 100%;
+    
+    width: 35%;
+    height: 13%;   
+    
     background-color: rgb(51, 255, 0);
     border-radius: 15px;
     color: black;
@@ -145,14 +145,21 @@ header1 a:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     float:left;
+    margin-left: 4%;
     margin-top: -30%;
+    position: absolute;
+	
+ }
+ .clear{
+    clear: both;
  }
  .btn-venda{
     top: 20%;
-    margin-top: -30%;
+    margin-top: 80%;
+    margin-left: 60%;
+    width: 35%;
     
-    width: 90px;
-    height: 30px;   
+    height: 13%;   
     cursor: pointer;
     background-color: red;
     border-radius: 15px;
@@ -162,16 +169,19 @@ header1 a:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     text-align: center;
-    float: right;
+    float: left;
+    position: absolute;
+	
         
  }
  
  .img{
+    
 	position: absolute;
 	left: 0;
 	top: 0;
-	width:256px;
-	height: 256px;
+	width:100%;
+	height: 75%;
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -188,21 +198,8 @@ header1 a:hover{
 
 
 
-button2{
-margin: 20%;
-width: 115px;
-height: 30px;
-cursor: pointer;
-background-color: red;
-border-radius: 15px;
-color: black;
-border:1;
-text-align: center;
-float:right;
-}
-#img_redondo{
-border-radius: 35px;
-}
+
+
 
 
 

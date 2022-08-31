@@ -184,9 +184,11 @@
             VENDA 
         </button2> 
     </li>
-    </div>        
+    </div>   
+</div>     
 </div>
 </div>
+
 </div>
 </div>
 
@@ -204,7 +206,7 @@
     </div>
     </div>
 </div>
-
+<div class = "clear"></div>
     
 
 
