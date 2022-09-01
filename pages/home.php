@@ -3,7 +3,10 @@
 		<div class="center">
 			<form method="POST" action="Banco.php">
 				 <h2>Digite seu email para receber noticias!</h2>
-				 <input type="email" name="email">
+				 <input type="text" name="nome" placeholder="Digite seu nome!"required>
+				 <br/>
+				 <br/>
+				 <input type="email" name="email" placeholder="Digite seu email!" required>
 				<input type="submit" name="acao" value="Cadastrar">
 			</form>
 		</div>

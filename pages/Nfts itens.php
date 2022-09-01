@@ -204,7 +204,7 @@
      </div>
     </div>
     </div>
-    </div>
+    
 </div>
 <div class = "clear"></div>
     
@@ -257,6 +257,6 @@
     }
 
 </script>
-
+</body>
 
 </html>
